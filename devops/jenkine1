@@ -11,11 +11,11 @@ pipeline {
             steps {
                 echo 'Hello sidd'
             }
-        stage('Hello world ') {
+        }
+		stage('Hello world') {
             steps {
                 echo 'Hello world'
             }
-        }
         }
     }
 }
